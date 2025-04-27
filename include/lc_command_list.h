@@ -1,0 +1,20 @@
+/*
+ * lc_command_list.h
+ *
+ *  Created on: Apr 25, 2025
+ *      Author: raalm
+ */
+
+#ifndef APPLICATION_USER_LC_COMMAND_LIST_H_
+#define APPLICATION_USER_LC_COMMAND_LIST_H_
+
+typedef enum {
+	LC_MOTOR_COMMAND_LIST_ENABLE,
+	LC_MOTOR_COMMAND_LIST_DISABLE,
+	LC_MOTOR_COMMAND_LIST_INITIALIZE,
+	LC_MOTOR_COMMAND_LIST_MOVE,
+
+	_LC_MOTOR_COMMAND_LIST_LAST,
+}lc_command_list_t;
+
+#endif /* APPLICATION_USER_LC_COMMAND_LIST_H_ */
